@@ -4,14 +4,6 @@ public class TicTacToe {
     private static char[][] board = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
     private static char currentPlayer = 'X';
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int row, col;
-
-        do {
-            printBoard();
-            System.out.println("Ход игрока " + currentPlayer);
-            System.out.print("Введите номер строки (1-3): ");
             row = scanner.nextInt() - 1;
             System.out.print("Введите номер столбца (1-3): ");
             col = scanner.nextInt() - 1;
