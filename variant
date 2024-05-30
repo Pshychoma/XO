@@ -12,11 +12,6 @@ public class TicTacToe {
                     System.out.println("Ничья!");
                     break;
                 } else {
-                    currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
-                }
-            } else {
-                System.out.println("Некорректный ход. Повторите попытку.");
-            }
         } while (true);
 
         scanner.close();
